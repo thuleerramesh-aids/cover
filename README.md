@@ -1,5 +1,5 @@
 # Ex.06 Book Front Cover Page Design
-## Date:06.10.2025
+## Date:6.10.25
 
 ## AIM:
 To design a book front cover page using HTML and CSS.
@@ -31,7 +31,8 @@ Insert the images in their appropriate places.
 Publish the website in the LocalHost.
 
 ## PROGRAM:
-```
+
+'''
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -41,7 +42,7 @@ Publish the website in the LocalHost.
     body {
       margin: 0;
       padding: 0;
-      background-color:cadetblue;
+      background-color: #f2f2f2;
       display: flex;
       justify-content: center;
       align-items: center;
@@ -52,7 +53,7 @@ Publish the website in the LocalHost.
     .book-cover {
       width: 400px;
       height: 600px;
-      background:darkseagreen;
+      background: palevioletred;
       border: 2px solid #333;
       padding: 40px 30px;
       box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
@@ -78,20 +79,20 @@ Publish the website in the LocalHost.
 
     .image {
       flex: 1;
-      background: url('https://upload.wikimedia.org/wikipedia/commons/6/65/Simple_flowers_black_line_art.png') center/contain no-repeat;
+      background: url('perarasu/bookapp/static/bookim.png') center/contain no-repeat;
       margin: 30px 0;
     }
 
     .author {
       font-size: 18px;
       text-align: center;
-      color:aquamarine;
+      color: #444;
       margin-top: 20px;
     }
 
     .line {
       height: 2px;
-      background: #be4a4a;
+      background: #333;
       width: 50px;
       margin: 10px auto;
     }
@@ -100,23 +101,22 @@ Publish the website in the LocalHost.
 <body>
   <div class="book-cover">
     <div>
-      <div class="title">The Psychology of Simplicity</div>
+      <div class="title">Create your own business</div>
       <div class="line"></div>
-      <div class="subtitle">Understanding the beauty of less</div>
+      <div class="subtitle">IF YOU BELIEVE I YOUR SELF YU CAN DO IT</div>
     </div>
     <div class="image">
-        <img src="https://img.freepik.com/free-vector/flat-world-mental-health-day-background_23-2149634438.jpg?t=st=1744720480~exp=1744724080~hmac=f1760139b6a1644521a6843c7039f2b45bdc688d25f4f3a479e1d59dcfad5515&w=1380" length="10%" width="100%">
+        <img src="bookim.png" length="3%" width="70%">
     </div>
     <div class="author">By Morgan Simplar</div>
   </div>
 </body>
 </html>
-```
+'''
 
 
 ## OUTPUT:
-![alt text](<Screenshot 2025-10-06 162101.png>)
-
+![alt text](<Screenshot 2025-10-05 214925.png>)
 
 ## RESULT:
 The program for designing book front cover page using HTML and CSS is completed successfully.
