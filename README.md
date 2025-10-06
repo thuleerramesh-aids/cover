@@ -1,5 +1,5 @@
 # Ex.06 Book Front Cover Page Design
-## Date:6.10.25
+## Date:04-10-2025
 
 ## AIM:
 To design a book front cover page using HTML and CSS.
@@ -31,92 +31,35 @@ Insert the images in their appropriate places.
 Publish the website in the LocalHost.
 
 ## PROGRAM:
-
-'''
+```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Book Cover</title>
-  <style>
-    body {
-      margin: 0;
-      padding: 0;
-      background-color: #f2f2f2;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      height: 100vh;
-      font-family: 'Georgia', serif;
-    }
-
-    .book-cover {
-      width: 400px;
-      height: 600px;
-      background: palevioletred;
-      border: 2px solid #333;
-      padding: 40px 30px;
-      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
-      display: flex;
-      flex-direction: column;
-      justify-content: space-between;
-    }
-
-    .title {
-      font-size: 28px;
-      font-weight: bold;
-      color: #2e2e2e;
-      text-align: center;
-      line-height: 1.3;
-    }
-
-    .subtitle {
-      font-size: 16px;
-      margin-top: 10px;
-      text-align: center;
-      font-style: italic;
-    }
-
-    .image {
-      flex: 1;
-      background: url('perarasu/bookapp/static/bookim.png') center/contain no-repeat;
-      margin: 30px 0;
-    }
-
-    .author {
-      font-size: 18px;
-      text-align: center;
-      color: #444;
-      margin-top: 20px;
-    }
-
-    .line {
-      height: 2px;
-      background: #333;
-      width: 50px;
-      margin: 10px auto;
-    }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Front</title>
+    <style>
+        body{
+            background-image: url("The Keyhole.png");background-repeat: no-repeat;
+            background-position: center; background-size: contain; height: 100vh;
+        }
+        #me{
+            text-align: right;color: bisque;font-family: Georgia, 'Times New Roman', Times, serif;font-size: 15px;
+            margin: 0px 496px -11px 496px ; padding: 580px 50px 10px;width: auto;
+            border: 2px; border-style: solid;
+        }
+    </style>
 </head>
 <body>
-  <div class="book-cover">
-    <div>
-      <div class="title">Create your own business</div>
-      <div class="line"></div>
-      <div class="subtitle">IF YOU BELIEVE I YOUR SELF YU CAN DO IT</div>
-    </div>
-    <div class="image">
-        <img src="bookim.png" length="3%" width="70%">
-    </div>
-    <div class="author">By Morgan Simplar</div>
-  </div>
+    <div id="me">
+     <p>The keyhole doesn’t guard the truth—it dares you to seek it<br> -Isravel Y</P>
+            <img src="Screenshot 2025-10-04 195311.png" height="100px" ></div>
 </body>
 </html>
-'''
-
+```
 
 ## OUTPUT:
-![alt text](<Screenshot 2025-10-05 214925.png>)
+![alt text](<Screenshot 2025-10-04 213348.png>)
 
 ## RESULT:
 The program for designing book front cover page using HTML and CSS is completed successfully.
